@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mn, in, px, pc, pt   OBS: "in" = polegada
+
+            Recomendação da W3C: Use sempre "em" e "px"
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %   OBS: "em" = altura M, "vw" = View width
+            16 px geralmente = 1em
+            */
+
+
+            /* Peso das fontes = "font-weight" 
+               Diferentes pesos de fontes:
+               Lighter, Normal, Bold, Bolder
+               Ou então, por números, de 100 a 900 por exemplo.
+               text-decoration: ; serve para decorar, podendo usar "underline por exemplo"*/ 
+        }
+
+        h1 {
+            /* ShortHand Font
+            font-family: 'Arial', sans-serif;
+            font-weight: bolder;
+            font-style: italic;
+            font-size: 3em;
+
+            - font-style -> font-weight -> font-size -> font-family*/
+            font: italic bolder 3em Arial, sans-serif;
+        }
+
+        h2 {
+            font: bold 2em Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus labore, error impedit exercitationem consequuntur facilis dolore nostrum! Atque iure doloremque nam in accusantium labore? Error ut corporis hic odio voluptatum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta, tempora recusandae aliquam neque sunt quibusdam asperiores harum inventore consectetur veritatis alias natus et, quisquam error repudiandae, provident hic vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae deleniti nobis maiores, similique esse in veritatis exercitationem labore aliquid. Maxime ut similique molestiae ratione consectetur cum doloremque hic saepe.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sit, adipisci culpa itaque rerum commodi excepturi esse reprehenderit quod, modi est asperiores incidunt id unde fugit voluptate, neque cum obcaecati.</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus mollitia rerum enim sed consequuntur iste impedit, eaque dolore vitae dolorem ex in deleniti omnis praesentium quia, tenetur dolor eius esse.</p>
+</body>
+</html>

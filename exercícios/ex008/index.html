@@ -1,0 +1,74 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="bilanha.ico" type="image/x-icon">
+        <title>Formatação de textos</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <main>
+            <h1>Principais formatações</h1>
+            <hr>
+            <h2>Negrito / Destaque</h2>
+            <p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (Não semântica).</p>
+            <p>Nesta frase temos um <strong>termo em destaque</strong> usando a tag STRONG(semântica).</p>
+            <h2>Itálico / Ênfase</h2>
+            <p>Nesta frase temos um <i>termo em itálico</i> usando a tag I (Não semântica).</p>
+            <p>Nesta frase, temos um <em>termo em ênfase</em>
+            usando a tag EM (semântica).</p>
+            <h2>"Marca Texto"</h2>
+            <p>Nesta frase, temos um <mark>termo utilizado com "Marcador de Texto"</mark> usando a tag MARK (Semântica). Para trocar a cor do marca-texto é necessário usar um método CSS chamado "style" e mudar o bgcolor ("<em>background color</em>") <mark>"Teste"</mark></p>
+            <h2>Texto Deletado</h2>
+            <p>
+                Nesta frase, temos um <strike>trecho deletado</strike> usando a tag STRIKE (Não semântica).
+            </p>
+            <p>Nesta frase, temos um <del>trecho deletado</del> usando a tag DEL (Semântica).</p>
+            <h2>Texto inserido</h2>
+            <p>Nesta frase, estamos dizendo que o <u>texto está ali, deve ser lido, e você deve prestar atenção nele</u>. Usando a tag U (Não semântica).</p>
+            <p>
+                Nesta frase, estamos dizendo que o <ins>texto está ali, deve ser lido, e você deve prestar atenção nele.</ins> Usando a tag INS (Semântica).
+            </p>
+            <h2>Texto sobrescrito e subscrito</h2>
+            <h3>Sobrescrito</h3>
+            <p>
+                Nesta frase, temos um texto sobrescrito <sup>2</sup> pelo número 2. Normalmente usado pela matemática. Usando a tag SUP (Semântica).
+            </p>
+            <h3>Subscrito</h3>
+            <p>Nesta frase, temos um texto subscrito <sub>2</sub> pelo número 2, Usando a tag SUB (Semântica).</p>
+            <h2>Trechos de código</h2>
+            <h3>Exemplo de código em Python:</h3>
+                <pre>
+                    <code>
+num = int(input('Digite um número: '))
+if num % 2 == 0:
+    print(f'O número {num} é par')
+else:
+    print(f'O número {num} é ímpar')
+print('Fim do programa!')
+                    </code>
+                </pre>
+            <p>
+                No código acima, usei 2 tags, uma delas foi a CODE, que é usada para delimitar um código. E a outra foi a PRE, que é usada para manter o texto pré-formatado (Ambas semânticas).
+            </p>
+            <h2>Tags unidas, jamais serão vencidas!</h2>
+            <p>Quando uma tag está dentro de outra, elas juntam suas forças para tornar um novo resultado, por exemplo, neste texto: "<strong><em>Tags unidas, jamais serão vencidas</em></strong>", foi usada a tag EM (para transformar em itálico) e também foi usada a tag STRONG (para transformar em bold). </p>
+            <h2>Citações</h2>
+            <p>Tem dois tipos de citações que podemos usar...</p>
+            <h3>Com aspas " ":</h3>
+            <p>
+                Para usar aspas em uma citação, como por exemplo neste texto: <q>Rosas são vermelhas</q>, pode se usar a tag Q (Semântica), do inglês significa <em>"Quote"</em>, em português <em>"Citar"</em>
+            </p>
+            <h3>Com deslocamento:</h3>
+            <p>
+                As com deslocamento são usadas normalmente em frases mais longas, por exemplo: <blockquote cite="https://www.youtube.com/watch?v=T-d_hsO3hUI">O PHP É UMA LINGUAGEM ´PARA A CRIAÇÃO DE SCRIPTS  PARA A WEB DO LADO SERVIDOR EMBUTIDOS EM HTML, CUJO CÓDIGO-FONT É ABERTO.</blockquote> Usando a tag BLOCKQUOTE (Semântica). Podemos também colocar o link do texto original, usando o parâmetro CITE, assim como no parágrafo.
+            </p>
+            <h2>Abreviações</h2>
+            <p>Nesta frase: "Eu estou aprendendo <abbr title="Hyper Text Markup Language ">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> para criar sites" usei a tag ABBR (Semântica), ela serve para indicar o significado de alguma abreviação. Sendo assim, quando o usuário passa o mouse em cima da sigla (no meu caso "HTML" e "CSS"), aparece o seu significado.</p>
+            <h2>Texto invertido</h2>
+                Na frase a seguir: "<bdo dir="rtl">TEXTO INVERTIDO</bdo>" repare que o texto está invertido da direita para a esquerda, para isso, usei a tag BDO (em inglês "<em>bi-directional override</em>"), juntamente do parâmetro DIR que serve para indicar uma das possíveis direções, nesse caso LTR ("<em>Left to Right</em>") ou RTL("<em>Right to Left</em>")
+        </main>
+</body>
+</html>

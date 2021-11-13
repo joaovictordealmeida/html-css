@@ -1,0 +1,16 @@
+Box Model:
+
+height = altura
+width = largura
+border = borda que envolve o conteúdo
+padding = acolchoamento. Nesse caso, podemos usar para distanciar a borda do conteúdo
+margin = indica o acolchoamento externo. Nesse caso, da borda até o próximo conteúdo.
+outline = contorno/traçado, sendo ele, fora do elemento.
+
+
+Box Types:
+
+box-level: começa sempre na linha de baixo, independente da situação. Ocupa a tela inteira.
+inline-level: permanece sempre na mesma linha, tanto quando for usado, quanto depois de ser usado
+
+user agent = seu navegador

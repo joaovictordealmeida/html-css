@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+#b1 {
+    background-color: rgb(221, 179, 101);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#m1 {
+    text-align: justify;
+    background-color: white;
+    width: 700px;
+    height: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+#saiba {
+    position: relative;
+    text-align: right;
+}
+
+#saiba > a {
+    color: rgb(221, 179, 101);
+}
+
+#saiba:active > a {
+    color: rgb(140, 211, 235);
+}
+
+#prim {
+    color: rgb(221, 170, 61);
+    text-align: center;
+}
+
+.p2 {
+    color: rgb(140, 211, 235);
+}
+
+
+
+#b2 {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#inic > a {
+    color: white;
+}
+
+#inic:active > a {
+    color: aqua;
+}
